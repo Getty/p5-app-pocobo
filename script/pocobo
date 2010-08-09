@@ -1,0 +1,8 @@
+#!/usr/bin/perl
+
+use App::Pocobo;
+
+my $pocobo = App::Pocobo->new_with_options;
+
+POE::Kernel->run;
+exit 0;
